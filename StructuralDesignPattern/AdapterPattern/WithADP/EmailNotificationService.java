@@ -1,5 +1,5 @@
 package AdapterPattern.WithADP;
-public class EmailNotificationS  ervice implements NotificationService {
+public class EmailNotificationService implements NotificationService {
 
     public void send(String to, String subject, String body) {
         System.out.println("Sending Email to " + to);
